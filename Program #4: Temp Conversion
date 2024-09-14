@@ -10,11 +10,16 @@ def temp_conversion(celsius):
     fahrenheit = 0.0
     ######################
     # WRITE YOUR CODE HERE
-    ######################    
+    celsius = float(input("Enter the temperature in Celsius: "))
+
+    # Convert to Fahrenheit
+    fahrenheit = (9/5) * celsius + 32 
 
 
     # Return the variable to the calling function
     return fahrenheit
+    print(f"The temperature in Fahrenheit is {fahrenheit:.2f}")
+
 
 #### This piece of the code has been done for you,
 #### you only need to worry about the actual temp 
