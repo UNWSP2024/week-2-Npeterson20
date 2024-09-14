@@ -7,10 +7,10 @@ def average_age():
     age5 = float(input("Enter the age of friend 5: "))
 
 # Calculate the average age
-average_age = (age1 + age2 + age3 + age4 + age5) / 5
+    average_age = (age1 + age2 + age3 + age4 + age5) / 5
 
 # Display the average age
-print(f"The average age is {average_age:.2f}")
+    print(f"The average age is {average_age:.2f}")
 
 
 # Line which calls the above function.
