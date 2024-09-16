@@ -1,4 +1,3 @@
-import Program #4: Temp Conversion
 # Look at line 17 first.
 # This program introduces a couple new concepts,
 # we'll be covering those in the weeks ahead
@@ -33,5 +32,3 @@ if __name__ == '__main__':
     fahrenheit = temp_conversion(celsius)
     # Display the Fahrenheit temperature.
     print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
-def test_conversion():
-    assert '140' in str(program_4.temp_conversion(60))
